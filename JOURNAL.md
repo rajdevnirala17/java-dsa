@@ -7,4 +7,5 @@
 - println takes one argument; use + to join strings
 - Scanner should be closed (or used with try-with-resources)
 - Fixed a Git merge conflict with unrelated histories
+- found a solution that to find Even Odd the number must be a natural number
 **Tomorrow:** Largest of three, loops (sum of N, factorial, table)
