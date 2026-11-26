@@ -5,18 +5,13 @@ public class EvenOdd {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number : ");
         int a = sc.nextInt();
-        if(a>0){
-            if(a % 2 == 0){
-                System.out.println("Number is Even");
-            }
-            else{
-                System.out.println("Number is Odd");
-            }
-        }
-        else{
-            System.out.println("Enter Natural number only");
+
+        if (a % 2 == 0) {
+            System.out.println("Number is Even");
+        } else {
+            System.out.println("Number is Odd");
         }
 
-    sc.close();
+        sc.close();
     }
 }
