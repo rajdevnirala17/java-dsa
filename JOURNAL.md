@@ -9,3 +9,14 @@
 - Fixed a Git merge conflict with unrelated histories
 - found a solution that to find Even Odd the number must be a natural number
 - **Tomorrow:** Largest of three, loops (sum of N, factorial, table)
+
+## Day 2 - 27 Nov 2026
+**Topics:** Conditions, for loops, integer overflow, number problems
+**Problems solved:** Even/Odd (rewritten from memory), Largest of three, Sum of 1 to N (loop and formula), Multiplication table
+**What I learned:**
+- Ties break `>` comparisons: `5 5 3` gave a wrong answer until I switched to `>=`
+- Use `long` for sums and loop counters when values can get big
+- The loop version of the sum is O(n), the formula is O(1)
+- Always test edge cases: ties, 0, negatives
+- Format Document in VS Code and the Scanner resource leak warning
+**Tomorrow:** Factorial (overflow at 21!), count digits, reverse a number
