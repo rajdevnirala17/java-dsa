@@ -21,7 +21,7 @@
 - Format Document in VS Code and the Scanner resource leak warning
 **Tomorrow:** Factorial (overflow at 21!), count digits, reverse a number
 
-## Day 3 - [today's date]
+## Day 3 - 28 Nov 2026
 **Topics:** Factorial, overflow limits, guarding invalid input
 **Problems solved:** Factorial of N
 **What I learned:**
