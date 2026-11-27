@@ -20,3 +20,13 @@
 - Always test edge cases: ties, 0, negatives
 - Format Document in VS Code and the Scanner resource leak warning
 **Tomorrow:** Factorial (overflow at 21!), count digits, reverse a number
+
+## Day 3 - [today's date]
+**Topics:** Factorial, overflow limits, guarding invalid input
+**Problems solved:** Factorial of N
+**What I learned:**
+- Do the problem by hand first, then spot the pattern: a running result plus a loop
+- Factorial starts at 1 (not 0) and uses `*` instead of `+`
+- 20! is the largest factorial that fits in a `long`; 21! overflows, so I added a guard
+- Handled edge cases: 0! = 1 and negative input
+- **Tomorrow:** Count digits, reverse a number, palindrome, prime check
