@@ -30,3 +30,13 @@
 - 20! is the largest factorial that fits in a `long`; 21! overflows, so I added a guard
 - Handled edge cases: 0! = 1 and negative input
 - **Tomorrow:** Count digits, reverse a number, palindrome, prime check
+
+## Day 4 - 29-11-26
+**Topics:** while loops, digit extraction with % and /, early exit with break
+**Problems solved:** Count digits, Reverse a number, Palindrome number
+**What I learned:**
+- `n % 10` gives the last digit and `n / 10` removes it
+- Reversing builds a running result: `reversed = reversed * 10 + last`
+- The loop destroys `n`, so save a copy (`original`) before comparing for a palindrome
+- Use `long` for reversed numbers to avoid overflow
+- **Tomorrow:** Arrays basics, then Fibonacci or GCD
